@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "BelVG",
+    "name": "Vigilância Bel",
     "slug": "BelVG",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,10 +19,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.vgbel.BelVG"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a3db30da-b8c1-437d-aacb-5dbd6446c36f"
+      }
     }
   }
 }
